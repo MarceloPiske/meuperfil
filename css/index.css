@@ -56,6 +56,11 @@ header nav ul li{
     margin-top: 50%;
     transform: translate(-10%,-50%);
 }
+.perfil img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+}
 .descriptions_content{
     z-index: -1;
     top: 35px;
@@ -70,6 +75,23 @@ header nav ul li{
 }
 .descriptions_content div{
     padding: 5%;
+    font-size: 1.4vw;
+}
+#goku{
+    position: absolute;
+    
+}
+#mario{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+#flash{
+    position: absolute;
+    right: 1%;
+
+
 }
 footer{
     position: absolute;
