@@ -5,31 +5,47 @@ body{
     color: white;
 }
 header{
+    border-radius: 10px 10px 0 0;
     position: fixed;
-    right: 0px;
-    height: 10vh;
+    margin: 0;
+    top: 5px;
+    right: calc(20vh - 15px);
+    height: 30px;
     width: 50vw;
-
+    background-color: #1ee099;
+    vertical-align: auto;
 }
 header nav{
-    position: absolute;
+    margin-top: 15px;
     width: 100%;
-    background-color: #1ee09988
+    height: 100%;
+    transform: translateY(-40%);
 }
 header nav ul{
     margin: 0;
 }
 header nav ul li{
+    width: auto;
+    margin-left: 20px;
+    display: inline;
     cursor: pointer;
-    float: left;
+    /* float: left; */
     list-style: none;
-    margin-left: 40px;
-    font-size: 2.5vh;
+    font-size: 20px;
+}
+.animation_float{
+    bottom: 0;
+    left: 45px;
+    border-radius: 10px 10px 0 0;
+    height: 90%;
+    width: 115px;
+    position: absolute;
+    background-color: #4d5c57;
 }
 .perfil{
     border-radius: 50%;
     font-size: 90px;
-    background-color: #1ee09988;
+    background-color: #1ee099;
     width: 20vh;
     height: 20vh;
     text-align: center;
@@ -40,7 +56,21 @@ header nav ul li{
     margin-top: 50%;
     transform: translate(-10%,-50%);
 }
-
+.descriptions_content{
+    z-index: -1;
+    top: 35px;
+    left: calc(20vh - 15px);
+    right: calc(20vh - 15px);
+    position: absolute;
+    /* width: 70vw; */
+    height: 75vh;
+    background-color: #4e5a5685;
+    border-radius: 15px 0;
+    padding: 10px;
+}
+.descriptions_content div{
+    padding: 5%;
+}
 footer{
     position: absolute;
     bottom: 0px;
@@ -49,7 +79,7 @@ footer{
     height: 15vh;
 }
 footer ul{
-    margin: 0;
+    margin: auto;
 }
 footer ul li{
     cursor: pointer;
@@ -57,6 +87,7 @@ footer ul li{
     list-style: none;
     margin-left: 40px;
     font-size: 2.5vh;
+    transform: translateY(100%);
 }
 footer input:disabled{
     position: absolute;
@@ -67,5 +98,4 @@ footer input:disabled{
     border: 0;
     color: white;
     width: 4vw;
-
 }

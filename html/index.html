@@ -15,27 +15,67 @@
 
 <body>
   <header>
+    <div class="animation_float">
+
+    </div>
     <nav>
       <ul>
-        <li>sobre mim</li>
-        <li>meus sonhos</li>
-        <li>Hard Skills</li>
-        <li>Soft Skills</li>
+        <li onclick="seeDescription('sobre')">sobre mim</li>
+        <li onclick="seeDescription('sonho')">meus sonhos</li>
+        <li onclick="seeDescription('hardskill')">Hard Skills</li>
+        <li onclick="seeDescription('softskill')">Soft Skills</li>
       </ul>
     </nav>
   </header>
-  <section class="perfil">
-    <img src="" alt="">
-    <i class='bx bx-happy'></i>
-  </section>
+  <main>
+    <section class="perfil">
+      <img src="" alt="">
+      <i class='bx bx-happy'></i>
+    </section>
+
+    <section class="descriptions_content">
+      <div id="sobre">
+        <p>
+          Olá me chamo Marcelo Piske, sou desenvolvedor e amo vidoegames principalmente
+          os classicos, atualmente tenho 20 anos, mas dependendo da ocasião aparento ter
+          70 ou 5.
+          Entrei na programação com 16 anos e adivinha em 2017 estava aprendendo a codar em Delphi,
+          depois me aventurei e brinquei um pouco com Netbeans, (comecei bem, Pascal e Java),
+          até então eu estudava em uma escola agricola, isso mesmo aprendi codigo mesmo estando na roça,
+          depois das minha aventuras codando em descktop conheci o desenvolvimento web e foi amor a primeira vista...
+          no meu primeiro emprego aprendi diversas coisas novas das quais nunca tinha ouvido falar,
+          Django para mim era só um filme rsrs.
+          Mas minha principal motivação para entrar na área foi um grande amor pela tecnologia em geral,
+          amo programar meu arduino e automatizar as coisas dentro da minha casa.
+          Eu amo resolver problemas e esse provavelmente foi outro forte fator para que eu me encaixasse
+          nesse mundo de programação.
+          Estou sempre buscando algo novo eu não gosto de ser desatualizado muito menos não ter opniao sobre algo
+          por isso busco sempre saber mais hoje do que eu sabia ontem.
+          Amo decifrar codigos e achar solução para o que é complexo, e se quiser ser meu amigo, me chame para jogar
+          Zelda.
+        </p>
+      </div>
+      <div id="sonho">
+
+      </div>
+      <div id="hardskill" >
+
+      </div>
+      <div id="softskill" >
+
+      </div>
+    </section>
+  </main>
   <footer>
     <ul>
-      <li><i class='bx bxl-linkedin' ></i> linkedin</li>
-      <li><i class='bx bxl-facebook'></i> Facebook</li>
-      <li><i class='bx bxl-instagram' ></i> Instagram</li>
-      <li><i class='bx bxl-github' ></i> Github</li>
+      <li><i class='bx bxl-linkedin'></i><a href=""></a> linkedin</li>
+      <li><i class='bx bxl-facebook'></i><a href=""></a> Facebook</li>
+      <li><i class='bx bxl-instagram'></i><a href=""></a> Instagram</li>
+      <li><i class='bx bxl-github'></i><a href=""></a> Github</li>
     </ul>
+    <input value="V 0.1" type="text" disabled>
   </footer>
+  <script src="/javascript/index.js"></script>
 </body>
 
 </html>
